@@ -1,4 +1,4 @@
 package Chess.Pieces;
 
-public class Rook {
+public class Rook extends aPiece{
 }

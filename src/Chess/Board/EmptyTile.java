@@ -1,4 +1,4 @@
 package Chess.Board;
 
-public class EmptyTile {
+public class EmptyTile extends aTile {
 }
