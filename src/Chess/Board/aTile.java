@@ -4,10 +4,11 @@ import Chess.Pieces.aPiece;
 
 public abstract class aTile {
 
-    int tileCoordinate;
+    int _tileCoordinate;
 
-    Tile(int tileCoordinate) {
-        this.tileCoordinate = tileCoordinate;
+    aTile (int tileCoordinate) {
+
+        _tileCoordinate = tileCoordinate;
     }
 
     public abstract boolean IsTileOccupied();
